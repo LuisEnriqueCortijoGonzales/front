@@ -3,10 +3,14 @@ import PaginaUno from '../views/PaginaUno.vue';
 import PaginaDos from '../views/PaginaDos.vue';
 import PaginaTres from '../views/PaginaTres.vue';
 import IniciarAdmin from '../views/IniciarAdmin.vue';
+import RegistroUser from '../views/RegistroUser.vue';
+import TrasaccionesUser from '../views/TransaccionesUser.vue';
+import ConsultaUsers from '../views/ConsultaUser.vue';
+import ConsulTRS from '../views/ConsultaTrs.vue';
 
 const routes = [
   {
-    path: '/pagina1',
+    path: '/',
     name: 'Pagina1',
     component: PaginaUno
   },
@@ -24,6 +28,26 @@ const routes = [
     path: '/iniciaradmin', // Ruta para la página "Iniciar Admin"
     name: 'IniciarAdmin', // Nombre de la ruta
     component: IniciarAdmin, // Componente de la página "Iniciar Admin"
+  },
+  {
+    path: '/registro',
+    name: 'Registro', 
+    component: RegistroUser, 
+  },
+  {
+    path: '/transaccion',
+    name: 'Transaccion', 
+    component: TrasaccionesUser, 
+  },
+  {
+    path: '/users',
+    name: 'ConsUsers', 
+    component: ConsultaUsers, 
+  },
+  {
+    path: '/consultas',
+    name: 'ConsultasTrs', 
+    component: ConsulTRS, 
   },
 ];
 
