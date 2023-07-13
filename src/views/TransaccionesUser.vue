@@ -45,6 +45,7 @@ export default {
         if (response.ok) {
           console.log('JSON enviado exitosamente:', jsonData);
           // Realiza acciones adicionales después de enviar el JSON a la API
+          
           this.$router.push('/pagina2/pagina3');
         } else {
           console.error('Error al enviar el JSON');

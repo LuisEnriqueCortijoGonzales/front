@@ -1,5 +1,6 @@
 <template>
     <div class="page-container">
+      
       <div class="pagina">
         <h1 class="titulo">Vista con Botones</h1>
         <button class="boton" @click="obtenerUsuarios">Obtener Usuarios</button>

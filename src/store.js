@@ -19,3 +19,4 @@ export default new Vuex.Store({
     // Puedes agregar getters adicionales aquí si es necesario
   }
 });
+

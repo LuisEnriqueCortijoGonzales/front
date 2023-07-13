@@ -4,6 +4,7 @@ App.vue <template>
       <div class="logo">
         UteCoin
       </div>
+      
       <nav class="navbar">
         <ul class="navlist">
           <li v-if="!isPaginaAdmin"><router-link to="/">Menú</router-link></li>

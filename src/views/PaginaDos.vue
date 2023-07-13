@@ -44,6 +44,7 @@ export default {
           },
           body: JSON.stringify(userData)
         });
+        
         if (response.ok) {
           console.log('Inicio de sesión exitoso:', this.username);
           // Guarda el nombre de usuario en Vuex
